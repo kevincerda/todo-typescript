@@ -1,0 +1,36 @@
+{
+  "name": "todo-typescript",
+  "version": "1.0.0",
+  "description": "Create a todo app with a `React` frontend and a `Node + Typescript` backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincerda/todo-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevincerda/todo-typescript/issues"
+  },
+  "homepage": "https://github.com/kevincerda/todo-typescript#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
